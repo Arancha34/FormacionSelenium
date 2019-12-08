@@ -24,7 +24,7 @@ public class ArticulosWoman extends BasePage {
         //No.of rows 
         if (articulos.size() > 0) {
         	click(Webli1);
-        	 System.out.println("dd");
+        	 System.out.println("ddd");
           // 	 String ColumnText = driver.findElement(By.xpath(".//*[@id='leftcontainer']/table/thead/tr/th["+i+"]")).getText();
         
         	 articulosCamiseta = driver.findElements(By.xpath("//a[contains(text(),'Faded Short Sleeve T-shirts')]"));
